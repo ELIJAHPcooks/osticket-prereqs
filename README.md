@@ -21,11 +21,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Microsoft Azure Subscription    
+- Remote desktop access
+- Prerequisite software 
+
+
+<h2>Operating System Used </h2>
+- Windows 10 (22H2)
+
+<h2>High-Level Steps</h2>
+
+- Step 1: Create a subscription using your Microsoft account in Microsoft Azure   
+- Step 2: Create a VM in Microsoft Azure 
+- Step 3: Setup remote desktop to access Azure VM  
+- Step 4: install IIS(Interent Information services) Manager Use prerequisite software to install Osticket software    
+- Step 5: Install prerequisite software to enable the use of Osticket software   
 
 <h2>Installation Steps</h2>
 
