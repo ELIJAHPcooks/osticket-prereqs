@@ -31,11 +31,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>High-Level Steps</h2>
 
-- Step 1: Create a subscription using your Microsoft account in Microsoft Azure   
-- Step 2: Create a VM in Microsoft Azure 
-- Step 3: Setup remote desktop to access Azure VM  
-- Step 4: install IIS(Interent Information services) Manager Use prerequisite software to install Osticket software    
-- Step 5: Install prerequisite software to enable the use of Osticket software   
+- Step 1: Remote desktop into the VM   
+- Step 2: Install / Enable IIS in Windows WITH CGI and Common HTTP Features, AND IIS Management Console
+- Step 3: Download and install PHP Manager for IIS 
+- Step 4: Download and install rewrite_amd64_en-US.msi   
+- Step 5: Download php-7.3.8-nts-Win32-VC15-x86.zip
+- step 6: Download and install VC_redist.x86.exe
+- step 7: Download and install mysql-5.5.62-win32.msi
+- step 8: Open IIS as an Admin, register PHP from within IIS
+- step 9: Install osTicket v1.15.8
+- step 10: Enable extensions
+- step 11: Rename ost-config.php, then assign permissions
+- step 12: Continue Setting up osTicket in the browser
+- step 13: Download Heidi SQL (HeidiSQL_12.3.0.6589_Setup.exe)
+- step 14: Congratulations,it's is installed
+- step 15: Delete: C:\inetpub\wwwroot\osTicket\setup, set Permissions to “Read” only
+ 
 
 <h2>Installation Steps</h2>
 
