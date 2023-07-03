@@ -63,18 +63,29 @@ After connecting to the VM using RDP simply go to control panel, programs, and f
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1f0EpmS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ <img src="https://i.imgur.com/rNZLjfI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ <img src="https://i.imgur.com/to9Rmrr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ <img src="https://i.imgur.com/6GggR46.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  <img src="https://i.imgur.com/MRFE7Fm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+  <img src="https://i.imgur.com/Li9yNVh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now you have to download all the pre req files. Download PHPManagerForIIS_V1.5.0.msi for IIS, download rewrite_amd64_en-US.msi, download php-7.3.8-nts-Win32-VC15-x86.zip and unzip contents into C:\PHP, and download VC_redist.x86.exe. 
-  
+Now you have to download all the pre req files. Download PHPManagerForIIS_V1.5.0.msi for IIS, download rewrite_amd64_en-US.msi, first create a new directory in the C: drive called PHP then download php-7.3.8-nts-Win32-VC15-x86.zip and unzip contents into C:\PHP , and download VC_redist.x86.exe. 
+ 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CaHeyOI.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/lB0zKCq.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+sometimes due to browser limitaions, you may not be able to download the php-7.3.8-nts-Win32-VC15-x86.zip file. A workaround for this would be to trust the download and press keep anyway. If that doesn't work you may have to download google chrome and download it within there. 
 </p>
 <br />
