@@ -86,6 +86,18 @@ Now you have to download all the pre req files. Download PHPManagerForIIS_V1.5.0
  <img src="https://i.imgur.com/lB0zKCq.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-sometimes due to browser limitaions, you may not be able to download the php-7.3.8-nts-Win32-VC15-x86.zip file. A workaround for this would be to trust the download and press keep anyway. If that doesn't work you may have to download google chrome and download it within there. 
+Due to browser limitations, you may be unable to download the php-7.3.8-nts-Win32-VC15-x86.zip file. A workaround for this would be to trust the download and press keep anyway. If that doesn't work you may have to download google chrome and download it within there. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/64qGzuG.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/Oq2fCx0.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/9nJC4jt.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/MI9XpG2.png" height="455%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The next step is to install the MySQL-5.5.62-win32.msi file. 
+ -
 </p>
 <br />
