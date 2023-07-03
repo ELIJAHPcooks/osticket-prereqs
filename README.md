@@ -97,7 +97,6 @@ Due to browser limitations, you may be unable to download the php-7.3.8-nts-Win3
  <img src="https://i.imgur.com/MI9XpG2.png" height="455%" width="55%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The next step is to install the MySQL-5.5.62-win32.msi file. 
- -
+The next step is to install the MySQL-5.5.62-win32.msi file. set it to typical install, Launch Configuration Wizard (after installation) choose the standard configuration, then choose a new root password and make sure to remember it. 
 </p>
 <br />
