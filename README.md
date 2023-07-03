@@ -100,3 +100,17 @@ Due to browser limitations, you may be unable to download the php-7.3.8-nts-Win3
 The next step is to install the MySQL-5.5.62-win32.msi file. set it to typical install, Launch Configuration Wizard (after installation) choose the standard configuration, then choose a new root password and make sure to remember it. 
 </p>
 <br />
+
+
+
+<p>
+<img src="https://i.imgur.com/AT4G7BN.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/z9AU0sK.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/xoVEZJl.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/TCEEEds.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/6XaU0xe.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After connecting to the VM using RDP simply go to control panel, programs, and features and double click turn Windows features on or off. Then enable Internet Information Services (IIS), go to Application development features, and check the GCI box and common HTTP features. Then go to Internet Information Services, Web Management Tools, IIS Management Console, and check IIS management box.
+</p>
+<br />
