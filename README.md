@@ -116,5 +116,17 @@ Now open IIS as an Admin. Then double click on PHP manager, then click register 
  <img src="https://i.imgur.com/DaOaTdS.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now Install OsticketosTicket (osTicket v1.15.8) once it's installed go to the osTicket download extract and copy the “upload” folder to c:\inetpub\wwwroot then within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+Now Install OsticketosTicket (osTicket v1.15.8) once it's installed go to the osTicket download extract and copy the “upload” folder to c:\inetpub\wwwroot then within c:\inetpub\wwwroot, Rename “upload” to “osTicket” once that's completed restart IIS. 
 <br />
+
+<p>
+<img src="https://i.imgur.com/JCwKnVU.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/xcRhRPf.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+once that's completed restart IIS. then go to sites -> Default -> osTicket then on the right side of the IIS window click  “Browse *:80” if you did everything correctly the osTicket webpage will pop up. if not completed correctly you will get a web page that says error 404. If you get an error you may have to restart the project or re-trace your steps to figure out what you did wrong. 
+<br />
+
+
+
+
