@@ -126,8 +126,7 @@ Now Install OsticketosTicket (osTicket v1.15.8) once it's installed go to the os
 <p>
 once that's completed restart IIS. then go to sites -> Default -> osTicket then on the right side of the IIS window click  “Browse *:80” if you did everything correctly the osTicket webpage will pop up. if not completed correctly you will get a web page that says error 404. If you get an error you may have to restart the project or re-trace your steps to figure out what you did wrong. 
 <br />
-
-
+ 
 <p>
 <img src="https://i.imgur.com/JCwKnVU.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 
@@ -135,7 +134,7 @@ once that's completed restart IIS. then go to sites -> Default -> osTicket then 
 <p>
 Now we have to enable some of the extensions that have an "X" next to them.
 <br /> 
-
+ 
 <p>
 <img src="https://i.imgur.com/InDXRdM.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/PWvo0rw.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
@@ -143,10 +142,17 @@ Now we have to enable some of the extensions that have an "X" next to them.
 </p>
 <p>
  To do this go back into IIS and go to sites -> Default -> osTicket, double-click PHP Manager-> click “Enable or disable an extension -> Enable: php_imap.dll, Enable: php_intl.dll and Enable: php_opcache.dll. Then refresh the osTicket site in your browser, observe the changes
- 
+ <br />
 
+<p>
+<img src="https://i.imgur.com/cjGE8DY.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/WvZT61U.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php then rename "sampleconfig.php" to "ost-config.php"
 
 <br />
+ 
 
 
 
