@@ -51,11 +51,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/AT4G7BN.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
- <img src="https://i.imgur.com/z9AU0sK.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AT4G7BN.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/z9AU0sK.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
  <img src="https://i.imgur.com/xoVEZJl.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
  <img src="https://i.imgur.com/TCEEEds.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
- <img src="https://i.imgur.com/6XaU0xe.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/6XaU0xe.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After connecting to the VM using RDP simply go to control panel, programs, and features and double click turn Windows features on or off. Then enable Internet Information Services (IIS), go to Application development features, and check the GCI box and common HTTP features. Then go to Internet Information Services, Web Management Tools, IIS Management Console, and check IIS management box.
@@ -63,17 +63,17 @@ After connecting to the VM using RDP simply go to control panel, programs, and f
 <br />
 
 <p>
-<img src="https://i.imgur.com/1f0EpmS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1f0EpmS.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
  
- <img src="https://i.imgur.com/rNZLjfI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/rNZLjfI.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
  
- <img src="https://i.imgur.com/to9Rmrr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/to9Rmrr.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
  
- <img src="https://i.imgur.com/6GggR46.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/6GggR46.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-  <img src="https://i.imgur.com/MRFE7Fm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/MRFE7Fm.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
   
-  <img src="https://i.imgur.com/Li9yNVh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/Li9yNVh.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now you have to download all the pre req files. Download PHPManagerForIIS_V1.5.0.msi for IIS, download rewrite_amd64_en-US.msi, first create a new directory in the C: drive called PHP then download php-7.3.8-nts-Win32-VC15-x86.zip and unzip contents into C:\PHP , and download VC_redist.x86.exe. 
@@ -104,13 +104,17 @@ The next step is to install the MySQL-5.5.62-win32.msi file. set it to typical i
 
 
 <p>
-<img src="https://i.imgur.com/AT4G7BN.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
- <img src="https://i.imgur.com/z9AU0sK.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
- <img src="https://i.imgur.com/xoVEZJl.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
- <img src="https://i.imgur.com/TCEEEds.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
- <img src="https://i.imgur.com/6XaU0xe.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cMukYVO.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/fk84ctN.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After connecting to the VM using RDP simply go to control panel, programs, and features and double click turn Windows features on or off. Then enable Internet Information Services (IIS), go to Application development features, and check the GCI box and common HTTP features. Then go to Internet Information Services, Web Management Tools, IIS Management Console, and check IIS management box.
+Now open IIS as an Admin. Then double click on PHP manager, then click register new php version and click on 3 dots and go to the C/:Drive PHP folder that we made previously then click php-cgi. Then restart the server so as not to run into any problems in the future. 
+<br />
+
+<p>
+<img src="https://i.imgur.com/pdWC8vD.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/DaOaTdS.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+Now Install OsticketosTicket (osTicket v1.15.8) once it's installed go to the osTicket download extract and copy the “upload” folder to c:\inetpub\wwwroot then within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 <br />
