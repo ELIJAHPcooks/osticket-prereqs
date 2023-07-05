@@ -128,5 +128,25 @@ once that's completed restart IIS. then go to sites -> Default -> osTicket then 
 <br />
 
 
+<p>
+<img src="https://i.imgur.com/JCwKnVU.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Now we have to enable some of the extensions that have an "X" next to them.
+<br /> 
+
+<p>
+<img src="https://i.imgur.com/InDXRdM.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PWvo0rw.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WihlTwo.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ To do this go back into IIS and go to sites -> Default -> osTicket, double-click PHP Manager-> click “Enable or disable an extension -> Enable: php_imap.dll, Enable: php_intl.dll and Enable: php_opcache.dll. Then refresh the osTicket site in your browser, observe the changes
+ 
+
+
+<br />
+
 
 
