@@ -108,7 +108,7 @@ The next step is to install the MySQL-5.5.62-win32.msi file. set it to typical i
  <img src="https://i.imgur.com/fk84ctN.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now open IIS as an Admin. Then double click on PHP manager, then click register new php version and click on 3 dots and go to the C/:Drive PHP folder that we made previously then click php-cgi. Then restart the server so as not to run into any problems in the future. 
+Now open IIS as an Admin. Then double click on PHP manager, then click register new php version and click on the 3 dots and go to the C/:Drive PHP folder that we made previously then click php-cgi. Then restart the server so as not to run into any problems in the future. 
 <br />
 
 <p>
@@ -150,6 +150,29 @@ Now we have to enable some of the extensions that have an "X" next to them.
 </p>
 <p>
 go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php then rename "sampleconfig.php" to "ost-config.php"
+
+<br />
+
+
+ <p>
+<img src="https://i.imgur.com/ClUY7FF.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/NtJBFX5.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/QnBpyGB.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now we need to assign permissions for the ost-config.php. left click on ost-config.php and go to properties, security then click advanced. Disable inheritance -> Remove All. 
+
+<br />
+
+
+ <p>
+<img src="https://i.imgur.com/SN3JLW4.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/16BoM5J.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/aipum0G.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+now click Add -> select principle -> type Everyone under "enter the object name to select"-> then choose Full Control for basic permissions then click ok and apply
+
 
 <br />
  
