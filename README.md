@@ -161,7 +161,6 @@ go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php then rename "samp
 </p>
 <p>
 Now we need to assign permissions for the ost-config.php. left click on ost-config.php and go to properties, security then click advanced. Disable inheritance -> Remove All. 
-
 <br />
 
 
@@ -172,10 +171,19 @@ Now we need to assign permissions for the ost-config.php. left click on ost-conf
 </p>
 <p>
 now click Add -> select principle -> type Everyone under "enter the object name to select"-> then choose Full Control for basic permissions then click ok and apply
+<br />
 
 
+  <p>
+<img src="https://i.imgur.com/SN3JLW4.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/16BoM5J.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/aipum0G.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+now click Add -> select principle -> type Everyone under "enter the object name to select"-> then choose Full Control for basic permissions then click ok and apply
 <br />
  
+
 
 
 
