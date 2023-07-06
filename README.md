@@ -175,15 +175,41 @@ now click Add -> select principle -> type Everyone under "enter the object name 
 
 
   <p>
-<img src="https://i.imgur.com/SN3JLW4.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
- <img src="https://i.imgur.com/16BoM5J.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
-   <img src="https://i.imgur.com/aipum0G.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WihlTwo.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/HGlx0bI.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-now click Add -> select principle -> type Everyone under "enter the object name to select"-> then choose Full Control for basic permissions then click ok and apply
+Now go back to the browser and continue setting up osTicket. Click continue to create a help desk name and an email that will receive emails from customers. Make sure to remember passwords, emails, and names used in the osTicket setup.  
+<br />
+
+
+ <p>
+<img src="https://i.imgur.com/GNAYubk.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/mtA13Wa.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/Xs7Q9Gz.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/asTGqnD.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install HeidiSQL. Create a new session ->root ->Use the same password of MYSQL and click Open. Connect to the session, right-click Unnamed ->Create new, Create a database called “osticket” Create a new database Name: "osticket" Write down the Database just created "osticket" into "osTicket System Installer" Make sure you use the same user and password of MYSQL and click Install Now. wants that's completed correctly you should get a screen that says congratulations 
+<br />
+
+
+  <p>
+<img src="https://i.imgur.com/9K7THTG.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/Au8x52I.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/E8ozx0F.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now we need to clean up. Delete C:\inetpub\wwwroot\osTicket\setup. then set the permissions of ost-config.php(C:\inetpub\wwwroot\osTicket\include\ost-config.php) to read only.
 <br />
  
-
+  <p>
+<img src="https://i.imgur.com/awG0Opy.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/siL9SFY.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+once that's done try and sign in to osTicket using the account you recently created. If you were able to sign in congratulations you have completed the installation of osTicket software on to your computer. 
+<br />
 
 
 
